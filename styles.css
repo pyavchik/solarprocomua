@@ -387,6 +387,42 @@ ul, ol {
     max-width: 560px;
 }
 
+.hero__promo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(245, 197, 24, .15);
+    border: 1px solid rgba(245, 197, 24, .4);
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-bottom: 28px;
+    color: #fff;
+    font-size: 1rem;
+    backdrop-filter: blur(8px);
+}
+
+.hero__promo svg {
+    flex-shrink: 0;
+    color: #F5C518;
+}
+
+.hero__promo strong {
+    color: #F5C518;
+}
+
+.hero__promo-link {
+    color: #F5C518;
+    text-decoration: none;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-left: 6px;
+    transition: color .2s;
+}
+
+.hero__promo-link:hover {
+    color: #fff;
+}
+
 .hero__actions {
     display: flex;
     gap: 16px;
@@ -1300,6 +1336,14 @@ html {
     .hero__subtitle {
         font-size: 15px;
         margin-bottom: 28px;
+    }
+
+    .hero__promo {
+        flex-wrap: wrap;
+        font-size: 14px;
+        padding: 10px 14px;
+        margin-bottom: 20px;
+        gap: 6px;
     }
 
     .hero__actions {
