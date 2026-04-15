@@ -383,20 +383,35 @@ p { margin: 0 0 1rem; color: var(--c-ink-2); }
   display: none;
   position: fixed;
   inset: var(--header-h) 0 0 0;
-  background: #fff;
+  background: #0a0d15;
+  color: #f1efe8;
   z-index: 40;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem 3rem;
   overflow-y: auto;
 }
 .nav__mobile.is-open { display: block; }
-.nav__mobile ul { list-style: none; padding: 0; margin: 0 0 2rem; display: grid; gap: .25rem; }
+.nav__mobile ul { list-style: none; padding: 0; margin: 0 0 2rem; display: grid; gap: 0; }
 .nav__mobile a {
   display: block;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--c-border);
-  font-weight: 600;
-  font-size: var(--fs-18);
+  padding: 1.15rem 0;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  font-family: var(--ff-editorial);
+  font-variation-settings: "opsz" 36;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  color: #faf8f1;
 }
+.nav__mobile a:hover { color: var(--c-brand); }
+.nav__mobile .btn {
+  color: #0a0d15;
+  font-family: var(--ff-sans);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0;
+  border: 0;
+}
+.site-header--floating .nav__mobile { color: #f1efe8; }
 
 /* ============================================================
    Hero
