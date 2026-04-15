@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://solarpro.ua/sitemap.xml
+Sitemap: https://solarpro.com.ua/sitemap.xml
