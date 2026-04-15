@@ -1,30 +1,39 @@
+# Working screenshots (Playwright checks, not site content)
+hero-*.png
+hero-full*.png
+full-v*.png
+features.png
+stats-fixed.png
+scroll*.png
+footer.png
+products-v*.png
+products-grid.png
+products-section.png
+products-hero.png
+products-full.png
+projects-full.png
+about-full.png
+about-hero.png
+blog-full.png
+blog-v*.png
+contact-full.png
+contact-final.png
+contact-hero.png
+services-full*.png
+services-hero*.png
+final-*.png
 
-# ── GSD baseline (auto-generated) ──
-.gsd
-.gsd-id
-.bg-shell/
+# Reference images and mocks
+home-*.jpeg
+home-*.png
+
+# Playwright MCP cache
+.playwright-mcp/
+
+# Editor / IDE / OS
 .DS_Store
-Thumbs.db
 *.swp
-*.swo
-*~
+Thumbs.db
 .idea/
 .vscode/
-*.code-workspace
-.env
-.env.*
-!.env.example
-node_modules/
-.next/
-dist/
-build/
-__pycache__/
-*.pyc
-.venv/
-venv/
-target/
-vendor/
-*.log
-coverage/
-.cache/
-tmp/
+.mcp.json

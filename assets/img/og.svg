@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#141a2c"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="980" cy="180" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd84a"/>
+      <stop offset=".5" stop-color="#f7b500"/>
+      <stop offset="1" stop-color="#f7b500" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="80" y2="80">
+      <stop offset="0" stop-color="#ffd84a"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="180" r="260" fill="url(#sun)"/>
+  <g transform="translate(80,90)">
+    <rect width="80" height="80" rx="18" fill="url(#mark)"/>
+    <circle cx="40" cy="40" r="13" fill="#0b0f1a"/>
+  </g>
+  <text x="180" y="148" font-family="Manrope,sans-serif" font-size="48" font-weight="800" fill="#ffffff">SolarPro</text>
+  <text x="80" y="280" font-family="Manrope,sans-serif" font-size="68" font-weight="800" fill="#ffffff" letter-spacing="-2">Дизельні генератори</text>
+  <text x="80" y="356" font-family="Manrope,sans-serif" font-size="68" font-weight="800" fill="#f7b500" letter-spacing="-2">STRUM · Dalgakiran · Matari</text>
+  <text x="80" y="450" font-family="Inter,sans-serif" font-size="26" fill="#c3c9d6">Продаж · Оренда · Електромонтаж · Сервіс · Когенерація</text>
+  <g transform="translate(80,525)" font-family="Manrope,sans-serif" font-weight="800" fill="#ffd84a">
+    <text x="0" y="40" font-size="38">500+ одиниць</text>
+    <text x="290" y="40" font-size="38">100+ проєктів</text>
+    <text x="600" y="40" font-size="38">8 000 мтг</text>
+    <text x="860" y="40" font-size="38">ISO 9001</text>
+  </g>
+</svg>
