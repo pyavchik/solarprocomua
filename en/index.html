@@ -40,22 +40,43 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "LocalBusiness"],
+  "@id": "https://solarpro.com.ua/#organization",
   "name": "SolarPro",
-  "url": "https://solarpro.com.ua",
+  "url": "https://solarpro.com.ua/",
   "logo": "https://solarpro.com.ua/assets/img/logo.svg",
+  "image": "https://solarpro.com.ua/assets/img/og.png",
   "description": "SolarPro — supply, installation, rental and service of diesel generators, electrical works, cogeneration units.",
   "foundingDate": "2018",
   "brand": { "@type": "Brand", "name": "STRUM" },
-  "address": [
-    { "@type": "PostalAddress", "streetAddress": "Harmatna St. 24", "addressLocality": "Kyiv", "addressCountry": "UA" },
-    { "@type": "PostalAddress", "streetAddress": "Harmatna St. 24", "addressLocality": "Kyiv", "addressCountry": "UA" }
-  ],
+  "slogan": "We don't sell generators — we deliver care",
+  "email": "info@getled.com.ua",
+  "telephone": "+380980183976",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "24 Harmatna St.",
+    "addressLocality": "Kyiv",
+    "postalCode": "03067",
+    "addressCountry": "UA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 50.4527,
+    "longitude": 30.4264
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }],
+  "areaServed": { "@type": "Country", "name": "Ukraine" },
   "contactPoint": [
-    { "@type": "ContactPoint", "telephone": "+380 98 018 39 76", "contactType": "sales", "areaServed": "UA", "availableLanguage": ["uk","ru","en"] },
-    { "@type": "ContactPoint", "telephone": "+380 98 018 39 76", "contactType": "technical support", "areaServed": "UA" }
+    { "@type": "ContactPoint", "telephone": "+380980183976", "email": "info@getled.com.ua", "contactType": "sales", "areaServed": "UA", "availableLanguage": ["uk","en"] },
+    { "@type": "ContactPoint", "telephone": "+380980183976", "contactType": "technical support", "areaServed": "UA", "availableLanguage": ["uk","en"] }
   ],
-  "hasCredential": ["ISO 9001:2015","ISO 14001","ISO 27001"]
+  "hasCredential": ["ISO 9001:2015", "ISO 14001", "ISO 27001"]
 }
 </script>
 <script type="application/ld+json">
