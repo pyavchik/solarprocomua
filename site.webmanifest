@@ -4,10 +4,13 @@
   "description": "Проєктування та монтаж сонячних електростанцій в Україні",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#f7b500",
+  "background_color": "#0b0f1a",
+  "theme_color": "#1d4ed8",
   "lang": "uk",
   "icons": [
-    { "src": "/assets/img/favicon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any maskable" }
+    { "src": "/assets/img/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/assets/img/android-chrome-192x192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/assets/img/android-chrome-512x512.png", "type": "image/png", "sizes": "512x512" },
+    { "src": "/assets/img/android-chrome-512x512.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
   ]
 }
